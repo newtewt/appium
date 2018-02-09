@@ -1,6 +1,6 @@
 var webdriverio = require('webdriverio');
-var androidOptions = require('../helpers/caps').androidOptions;
-var app = require('../helpers/apps').androidApiDemos;
+var androidOptions = require('../../helpers/caps').androidOptions;
+var app = require('../../helpers/apps').androidApiDemos;
 var assert = require('chai').assert;
 
 androidOptions.desiredCapabilities.app = app;
